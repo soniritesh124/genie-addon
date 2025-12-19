@@ -1,6 +1,6 @@
 name: Genie Cloud Bridge
 slug: genie
-version: "1.0.0"
+version: "1.0.1"
 description: Genie hardware cloud bridge
 startup: services
 boot: auto
