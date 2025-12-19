@@ -1,9 +1,9 @@
 FROM python:3.11-slim
 
-# Install jq (REQUIRED for Home Assistant add-on options)
-RUN apt-get update && \
-    apt-get install -y jq && \
-    rm -rf /var/lib/apt/lists/*
+# Install jq (REQUIRED)
+RUN apt-get update \
+    && apt-get install -y jq \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
