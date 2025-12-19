@@ -1,0 +1,16 @@
+name: Genie Cloud Bridge
+slug: genie
+version: "1.0.0"
+description: Genie hardware cloud bridge
+startup: services
+boot: auto
+host_network: true
+hassio_api: true
+options:
+  email: ""
+  password: ""
+  device_id: ""
+schema:
+  email: str
+  password: password
+  device_id: str
